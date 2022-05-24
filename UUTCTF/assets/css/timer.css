@@ -2,39 +2,39 @@
     color: #fff;
     margin: 0 auto;
     text-align: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
-  }
-  
-  li {
+}
+
+li {
     display: inline-block;
     font-size: 1rem;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
-  }
-  
-  li span {
+}
+
+li span {
     display: block;
     font-size: 4.5rem;
-  }
-  
-  
-  @media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 768px) {
     h1 {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-    
+    ul {
+        padding-left: 0px;
+    }
     li {
-      font-size: 1.125rem;
-      padding: .75rem;
+        font-size: 0.825rem;
+        padding: .75rem;
     }
-    
     li span {
-      font-size: 3.375rem;
+        font-size: 1.2rem;
     }
-  }
+}
